@@ -1,20 +1,6 @@
-.game
-{
-    width: 720px;
-    border: solid 1px #ddd;
-    margin: 0 auto;
-   background: orangered;
-border: solid 10px;
-text-align:center;
-min-height:430px;
-}
 
-.btn{
-    border:none;
-    padding: 10px 30px;
-    border-radius:10px;
-    cursor:pointer;
-}
+
+
 
 .btn:hover{
     background:brown ;
