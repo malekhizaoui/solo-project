@@ -1,13 +1,13 @@
 
         var suits = ["Spades", "Hearts", "Diamonds", "Clubs"];
         var values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
-        var deck = new Array();
-        var players = new Array();
+        var deck = [];
+        var players = [];
         var currentPlayer = 0;
 
         function createDeck()
         {
-            deck = new Array();
+            deck = [];
             for (var i = 0 ; i < values.length; i++)
             {
                 for(var x = 0; x < suits.length; x++)
@@ -25,10 +25,10 @@
 
         function createPlayers(num)
         {
-            players = new Array();
+            players = [];
             for(var i = 1; i <= num; i++)
             {
-                var hand = new Array();
+                var hand = [];
                 var player = { Name: 'Player ' + i, ID: i, Points: 0, Hand: hand };
                 players.push(player);
             }
